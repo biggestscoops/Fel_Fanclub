@@ -22,41 +22,41 @@ div {
         position: relative;
         display: inline-block;
     }
-    .birthday .bday-top {
+.bday-top {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 99;
     }
-    .birthday:hover .bday-top {
+.birthday:hover .bday-top {
         display: inline;
     }
-    .valentines {
+.valentines {
             position: relative;
             display: inline-block;
         }
-        .valentines .vday-top {
+.valentines .vday-top {
             display: none;
             position: absolute;
             top: 0;
             left: 0;
             z-index: 99;
         }
-        .valentines:hover .vday-top {
+.valentines:hover .vday-top {
             display: inline;
         }
-        .beach {
+.beach {
                 position: relative;
                 display: inline-block;
             }
-            .beach .beach-top {
+.beach .beach-top {
                 display: none;
                 position: absolute;
                 top: 0;
                 left: 0;
                 z-index: 99;
             }
-            .beach:hover .beach-top {
+.beach:hover .beach-top {
                 display: inline;
             }
