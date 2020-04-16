@@ -8,3 +8,55 @@ hr {
   border-width: 5px;
   width: 5%;
 }
+
+div {
+  width: 216px;
+  height: 216px;
+}
+/***************CLASS SELECTOR*********/
+.pictures {
+  border-spacing: 5em 1em;
+}
+.birthday {
+
+        position: relative;
+        display: inline-block;
+    }
+    .birthday .bday-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .birthday:hover .bday-top {
+        display: inline;
+    }
+    .valentines {
+            position: relative;
+            display: inline-block;
+        }
+        .valentines .vday-top {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        .valentines:hover .vday-top {
+            display: inline;
+        }
+        .beach {
+                position: relative;
+                display: inline-block;
+            }
+            .beach .beach-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+            .beach:hover .beach-top {
+                display: inline;
+            }
