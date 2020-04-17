@@ -1,19 +1,30 @@
 body {
   background-color: #fff0f5;
+  font-family: 'Montserrat', cursive;
 }
 
+h1 {
+  font-family: 'Merriweather', cursive;
+}
+
+h2 {
+  font-family: 'Merriweather', cursive;
+}
 hr {
   border-color: #efa8e4;
   border-style: dotted none none none;
   border-width: 5px;
   width: 5%;
 }
-
-div {
-  width: 216px;
-  height: 216px;
-}
 /***************CLASS SELECTOR*********/
+.name {
+  font-family: 'Merriweather', cursive;
+  font-size: 30px;
+}
+.email {
+  position: relative;
+  left: 38px;
+}
 .pictures {
   border-spacing: 5em 1em;
 }
@@ -60,3 +71,42 @@ div {
 .beach:hover .beach-top {
                 display: inline;
             }
+.illustrations {
+  background-color: #f8e1f4;
+  position:relative;
+  height: 1000px;
+}
+.illus-of-fel {
+  padding-top: 20px;
+}
+.fel-source {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 550px;
+  left: 300px;
+}
+
+.fel-1 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.fel-2 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 300px;
+  top: 200px;
+}
+
+.fel-fav {
+  width: 353px;
+  height: 250px;
+  position: absolute;
+  top: 550px;
+  right:250px;
+}
